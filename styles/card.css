@@ -14,6 +14,10 @@
     padding: 1rem;
 }
 
+.card:hover {
+    border: 1px solid var(--gray-300);
+}
+
 .card h3 {
     font: var(--title-sm);
     color: var(--gray-100);
