@@ -11,7 +11,7 @@
     text-align: center; 
 }
 
-#intro div {
+#intro > div:not(.tag-bar, .tag) {
     display: flex;
     flex-direction: column; 
     align-items: center;
@@ -56,13 +56,13 @@
 
 .container {
     position: relative;
-    width: 112px;
-    height: 112px;
+    width: 7rem;
+    height: 7rem;
 }
 
 .profile-image img {
-    width: 96px;
-    height: 96px;
+    width: 6rem;
+    height: 6rem;
     display: inline-block;
     border-radius: 100%;
     padding: 6px;
@@ -73,4 +73,41 @@
     position: absolute;
     bottom: 0;
     right: 0;
+}
+
+.tag-bar {
+    font: var(--text-md);
+    display: flex;
+    flex-direction: row;
+    padding-top: 5rem;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.tag {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    gap: 0.25rem; 
+    padding: .5rem 1rem;
+    background-color: var(--gray-400);
+    border-radius: 2rem;
+}
+
+.tag span {
+    text-align: center;
+}
+
+.tag img {
+    height: 1.5rem;
+    width: auto;
+}
+
+.next-secction {
+    width: 2rem;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    padding-top: 6rem;
 }
