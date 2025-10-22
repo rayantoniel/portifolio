@@ -1,0 +1,38 @@
+#grid-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.card {
+    width: 298px;
+    background-color: var(--gray-400);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: .75rem;
+    padding: 1rem;
+}
+
+.card h3 {
+    font: var(--title-sm);
+    color: var(--gray-100);
+}
+
+.card p {
+    font: var(--text-sm);
+    color: var(--gray-200);
+    padding-top: .5rem;
+}
+
+.card-text {
+    padding-top: 1rem;
+    width: 100%;
+}
+
+.card img {
+    border-radius: .5rem;
+    width: 100%;
+    height: auto;
+    display: block;
+}

@@ -1,8 +1,10 @@
+@import url(card.css);
+
 #projects {
     background-color: var(--gray-500);
     height: 917px;
 
-    padding: 4.5rem 7.5rem 9rem;
+    padding: 4.5rem 7.5rem 9rem 7.5rem;
 }
 
 #projects .title {
