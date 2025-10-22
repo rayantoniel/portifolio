@@ -1,6 +1,8 @@
 * {
     padding: 0;
     margin: 0;
+
+    font: var(--font-family-1);
 }
 
 :root {
@@ -19,15 +21,15 @@
 
     --font-family-1: 'Asap', sans-serif;
     
-    --title-lg: 800 56px/120% var(--font-family-1);
-    --title-md: 800 24px/120% var(--font-family-1);
-    --title-sm: 800 16px/120% var(--font-family-1);
+    --title-lg: 800 3.5rem/120% var(--font-family-1);
+    --title-md: 800 1.5rem/120% var(--font-family-1);
+    --title-sm: 800 1rem/120% var(--font-family-1);
 
     --font-family-2: 'Inconsolata', sans-serif;
-    --text-subtitle: 600 20px/120% var(--font-family-2);
+    --text-subtitle: 400 1.25rem/120% var(--font-family-2);
 
     --font-family-3: 'Maeven Pro', sans-serif;
-    --text-md: 600 16px/140% var(--font-family-3);
-    --text-sm: 600 14px/140% var(--font-family-3);
+    --text-md: 400 1rem/140% var(--font-family-3);
+    --text-sm: 400 .875rem/140% var(--font-family-3);
 
 }
