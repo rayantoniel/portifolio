@@ -1,0 +1,24 @@
+#projects {
+    background-color: var(--gray-500);
+    height: 917px;
+
+    padding: 4.5rem 7.5rem 9rem;
+}
+
+#projects .title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 3.5rem;
+}
+
+#projects h3 {
+    font: var(--text-subtitle);
+    color: var(--color-red);
+}
+
+#projects h2 {
+    font: var(--title-md);
+    color: var(--gray-100);
+    padding-top: .5rem;
+}
