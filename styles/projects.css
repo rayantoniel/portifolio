@@ -12,12 +12,12 @@
     padding-bottom: 3.5rem;
 }
 
-#projects h3 {
+#projects .title h3 {
     font: var(--text-subtitle);
     color: var(--color-red);
 }
 
-#projects h2 {
+#projects .title h2 {
     font: var(--title-md);
     color: var(--gray-100);
     padding-top: .5rem;
