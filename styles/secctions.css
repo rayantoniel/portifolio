@@ -95,6 +95,10 @@
     border-radius: 2rem;
 }
 
+.tag:hover {
+    border: 1px solid var(--gray-300);
+}
+
 .tag span {
     text-align: center;
 }
