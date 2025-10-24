@@ -7,19 +7,19 @@
     padding: 4.5rem 7.5rem 9rem 7.5rem;
 }
 
-#projects .title {
+.title {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-bottom: 3.5rem;
 }
 
-#projects .title h3 {
+.title h3 {
     font: var(--text-subtitle);
     color: var(--color-red);
 }
 
-#projects .title h2 {
+.title h2 {
     font: var(--title-md);
     color: var(--gray-100);
     padding-top: .5rem;

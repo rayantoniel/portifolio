@@ -1,8 +1,9 @@
 #intro {
     background-image: url(../assets/Background_Intro.png);
     background-size: cover;
-    height: 750px;
+    height: 100%;
     color: var(--gray-100);
+    padding: 4.5rem 7.5rem 9rem;
 
     display: flex;
     flex-direction: column;

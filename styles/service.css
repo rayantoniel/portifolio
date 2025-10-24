@@ -1,0 +1,11 @@
+#service {
+    background-color: var(--gray-600);
+    background-size: cover;
+    height: 480px;
+
+    padding: 5.5rem 7.5rem 7.5rem 7.5rem;
+}
+
+.serv-card {
+    
+}
